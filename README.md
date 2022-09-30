@@ -4,7 +4,8 @@ did you screw up all your git commit names and your csp teacher's midterm is che
 
 ```sh
 # run this inside the desired git repository
-curl -s -L https://raw.githubusercontent.com/safinsingh/git-rewrite-all/master/git-rewrite-all.sh | bash
+curl -s -L https://raw.githubusercontent.com/safinsingh/git-rewrite-all/master/git-rewrite-all.sh > git-rw
+bash git-rw
 ```
 
 > if it gives you an error saying that curl isn't installed:
